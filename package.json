@@ -1,0 +1,21 @@
+{
+
+"name":"storagetoolplugin",
+
+"version":"1.0.0",
+
+"description":"sengled storageTool ",
+
+"main":"index.js",
+
+"scripts": {
+
+"test":"echo\"Error: no test specified\"&& exit 1"
+
+},
+
+"author":"",
+
+"license":"ISC"
+
+}

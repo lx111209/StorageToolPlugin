@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="StorageTool" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>StorageToolPlugin</name>
+    <js-module name="StorageToolPlugin" src="www/StorageToolPlugin.js">
+        <clobbers target="cordova.plugins.StorageToolPlugin" />
+    </js-module>
+    <platform name="ios">
+    	<config-file parent="/*" target="config.xml">
+    		<feature name="StorageToolPlugin">
+    			<param name="ios-package" value="StorageToolPlugin"/>
+    		</feature>
+    	</config-file>
+    	<source-file src="src/ios/StorageToolPlugin.m"/>
+    </platform>
+</plugin>

@@ -1,5 +1,5 @@
 require("UIImage,NSData,NSArray,NSMutableDictionary,NSMutableString,NSURL")
-defineClass("ViewController", {
+defineClass("SecondViewController", {
             viewDidLoad:function() {
             self.ORIGviewDidLoad();
                 console.log("123");
